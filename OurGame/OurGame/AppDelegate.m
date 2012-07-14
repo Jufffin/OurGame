@@ -8,7 +8,10 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+
+@synthesize systemViewController = _systemViewController;
 //13312
 - (void)dealloc
 {
@@ -22,6 +25,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+  _systemViewController = [[SystemObjectController alloc] init];
+  self.window.rootViewController = _systemViewController;
     return YES;
 }
 

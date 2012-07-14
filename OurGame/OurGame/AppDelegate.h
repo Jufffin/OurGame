@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SystemObjectController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) SystemObjectController * systemViewController;
 
 @end

@@ -13,6 +13,8 @@
 		3216540615B1556200ADA853 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3216540415B1556200ADA853 /* InfoPlist.strings */; };
 		3216540815B1556200ADA853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216540715B1556200ADA853 /* main.m */; };
 		3216540C15B1556200ADA853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216540B15B1556200ADA853 /* AppDelegate.m */; };
+		42A9EA3015B15D7F002AD01D /* SystemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA2F15B15D7F002AD01D /* SystemObject.m */; };
+		42A9EA3315B15F2B002AD01D /* SystemObjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A9EA3215B15F2B002AD01D /* SystemObjectController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3216540915B1556200ADA853 /* OurGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OurGame-Prefix.pch"; sourceTree = "<group>"; };
 		3216540A15B1556200ADA853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3216540B15B1556200ADA853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42A9EA2E15B15D7F002AD01D /* SystemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemObject.h; sourceTree = "<group>"; };
+		42A9EA2F15B15D7F002AD01D /* SystemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemObject.m; sourceTree = "<group>"; };
+		42A9EA3115B15F2B002AD01D /* SystemObjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemObjectController.h; sourceTree = "<group>"; };
+		42A9EA3215B15F2B002AD01D /* SystemObjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemObjectController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			children = (
 				3216540A15B1556200ADA853 /* AppDelegate.h */,
 				3216540B15B1556200ADA853 /* AppDelegate.m */,
+				42A9EA2C15B15D51002AD01D /* System */,
 				3216540215B1556200ADA853 /* Supporting Files */,
 			);
 			path = OurGame;
@@ -88,6 +95,17 @@
 				3216540915B1556200ADA853 /* OurGame-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42A9EA2C15B15D51002AD01D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				42A9EA2E15B15D7F002AD01D /* SystemObject.h */,
+				42A9EA2F15B15D7F002AD01D /* SystemObject.m */,
+				42A9EA3115B15F2B002AD01D /* SystemObjectController.h */,
+				42A9EA3215B15F2B002AD01D /* SystemObjectController.m */,
+			);
+			name = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +172,8 @@
 			files = (
 				3216540815B1556200ADA853 /* main.m in Sources */,
 				3216540C15B1556200ADA853 /* AppDelegate.m in Sources */,
+				42A9EA3015B15D7F002AD01D /* SystemObject.m in Sources */,
+				42A9EA3315B15F2B002AD01D /* SystemObjectController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +277,7 @@
 				3216541115B1556200ADA853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
